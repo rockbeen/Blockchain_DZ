@@ -1,0 +1,47 @@
+{
+	"ABI version": 2,
+	"version": "2.1",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "get_in_line",
+			"inputs": [
+				{"name":"name","type":"string"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "call_the_next_one",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "namePeople",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"namePeople","type":"string[]"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"namePeople","type":"string[]"}
+	]
+}
