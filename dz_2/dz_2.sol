@@ -4,7 +4,7 @@ pragma AbiHeader expire;
 contract multiplication {
 
 	
-	uint8 public result = 1;
+	uint256 public result = 1;
 
 	constructor() public {
 	

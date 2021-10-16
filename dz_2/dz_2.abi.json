@@ -23,7 +23,7 @@
 			"inputs": [
 			],
 			"outputs": [
-				{"name":"result","type":"uint8"}
+				{"name":"result","type":"uint256"}
 			]
 		}
 	],
@@ -35,6 +35,6 @@
 		{"name":"_pubkey","type":"uint256"},
 		{"name":"_timestamp","type":"uint64"},
 		{"name":"_constructorFlag","type":"bool"},
-		{"name":"result","type":"uint8"}
+		{"name":"result","type":"uint256"}
 	]
 }
